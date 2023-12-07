@@ -30,6 +30,7 @@ span {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .container {
@@ -86,4 +87,42 @@ button {
   .header-menu-btn {
     display: inline-block;
   }
+}
+.hero {
+  min-width: 100%;
+  background-image: url(../../assets/img/hero-img.jpg);
+  background-repeat: no-repeat;
+  padding: 117px 0 116px 85px;
+  border-radius: 10px;
+  margin-bottom: 136px;
+}
+.hero h1 {
+  width: 493px;
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+.hero p {
+  width: 435px;
+  color: #FEFCF7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 56px;
+}
+.hero a {
+  padding: 15px 31px;
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  border-radius: 6px;
+  background: #0E8784;
 }/*# sourceMappingURL=mein.css.map */
