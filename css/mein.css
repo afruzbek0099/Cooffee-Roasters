@@ -36,4 +36,30 @@ button {
   width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.header {
+  padding: 43px 0;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 0 33px;
+}
+.header-link {
+  color: #83888F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.header-link:active {
+  color: #333D4B;
 }/*# sourceMappingURL=mein.css.map */
