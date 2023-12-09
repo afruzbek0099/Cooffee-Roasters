@@ -1,13 +1,16 @@
 @import "../mixin.scss";
 
 .hero {
-    min-width: 100%;
-    background-image: url(../../assets/img/hero-img.jpg);
-    background-repeat: no-repeat;
-    padding: 117px 0 116px 85px;
-    border-radius: 10px;
     margin-bottom: 136px;
-    
+
+    &-box {
+        background-image: url(../assets/img/hero-img.jpg);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 117px 0 116px 85px;
+        max-width: 100%;
+    }
+
 
     h1 {
         width: 493px;
@@ -34,4 +37,50 @@
         @include siteBtn()
     }
 
+    .box-hero {
+        display: none;
+        width: 100%;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.60);
+    }
+}
+
+@media only screen and (max-width: 689px) {
+    .hero {
+        &-box {
+            padding: 104px 0 104px 58px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        &-box {
+            // padding: 100px 0 24px 99px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../assets/img/hero-bg-mob.jpg);
+            background-size: cover;
+        }
+
+
+        h1 {
+            width: 100%;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
