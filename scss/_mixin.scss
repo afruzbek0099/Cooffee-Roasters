@@ -8,4 +8,15 @@
     line-height: 25px;
     border-radius: 6px;
     background: #0E8784;
+
+    &:hover {
+        border-radius: 6px;
+        background: #66D2CF;
+        transition: all 1s ease;
+    }
+
+    &:active {
+        background: #E2DEDB;
+        transition: all 1s ease;
+    }
 }

@@ -127,6 +127,15 @@ button {
   border-radius: 6px;
   background: #0E8784;
 }
+.hero a:hover {
+  border-radius: 6px;
+  background: #66D2CF;
+  transition: all 1s ease;
+}
+.hero a:active {
+  background: #E2DEDB;
+  transition: all 1s ease;
+}
 .hero .box-hero {
   display: none;
   width: 100%;
@@ -340,4 +349,18 @@ button {
   .list-2-text {
     width: 240px;
   }
+}
+.list-3 h4 {
+  color: #83888F;
+  font-family: "Fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 80px;
+}
+.list-3 .line-box-list-3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 67px;
 }/*# sourceMappingURL=mein.css.map */
