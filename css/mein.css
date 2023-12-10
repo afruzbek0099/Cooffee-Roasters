@@ -459,4 +459,51 @@ button {
     align-items: center;
     justify-content: center;
   }
+}
+.footer-box {
+  max-width: 100%;
+  padding: 47px 85px;
+  background: #2C343E;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 88px;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.footer-links {
+  width: 622px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 550) {
+  .footer-list {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 550) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-links {
+    justify-content: center;
+  }
+  .footer-list {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-link {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=mein.css.map */
