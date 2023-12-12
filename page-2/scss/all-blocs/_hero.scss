@@ -1,9 +1,13 @@
 .hero {
     &-box {
+        max-width: 100%;
         background-image: url("../assets/img/hero-img-ab-us.png");
         background-size: cover;
         background-repeat: no-repeat;
         padding: 137px 0 85px 137px;
+        border-radius: 10px;
+        background-color: #A2A2A2;
+        margin-bottom: 168px;
     }
 
     h1 {
@@ -23,5 +27,45 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 689px) {
+    .hero {
+        &-box {
+            padding: 104px 0 104px 58px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        &-box {
+            padding: 100px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../assets/img/hero-mob-bg.png);
+            background-size: cover;
+        }
+
+
+        h1 {
+            width: 100%;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+        }
     }
 }

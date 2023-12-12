@@ -91,10 +91,14 @@ img {
   }
 }
 .hero-box {
+  max-width: 100%;
   background-image: url("../assets/img/hero-img-ab-us.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 137px 0 85px 137px;
+  border-radius: 10px;
+  background-color: #A2A2A2;
+  margin-bottom: 168px;
 }
 .hero h1 {
   color: #FEFCF7;
@@ -112,4 +116,106 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+@media only screen and (max-width: 689px) {
+  .hero-box {
+    padding: 104px 0 104px 58px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .hero-box {
+    padding: 100px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/hero-mob-bg.png);
+    background-size: cover;
+  }
+  .hero h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero p {
+    width: 100%;
+    text-align: center;
+  }
+}
+.our-com-box {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-com img {
+  border-radius: 8px;
+  background-color: #0E8784;
+}
+.our-com-mob-img {
+  display: none;
+}
+.our-com-text {
+  width: 540px;
+}
+.our-com-text h2 {
+  color: #333D4B;
+  font-family: "Fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.our-com-text p {
+  color: #333D4B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 880px) {
+  .our-com-img {
+    display: none;
+  }
+  .our-com-mob-img {
+    display: inline-block;
+    width: 327px;
+    height: 470px;
+  }
+  .our-com-text {
+    width: 340px;
+  }
+  .our-com-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .our-com-text p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .our-com-box {
+    flex-direction: column;
+  }
+  .our-com-mob-img {
+    max-width: 100%;
+    height: 400px;
+  }
+  .our-com-text {
+    text-align: center;
+  }
+  .our-com-text h1 {
+    max-width: 100%;
+  }
+  .our-com-text p {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
