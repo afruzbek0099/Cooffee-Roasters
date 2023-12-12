@@ -153,6 +153,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 152px;
 }
 .our-com img {
   border-radius: 8px;
@@ -218,4 +219,44 @@ img {
   .our-com-text p {
     max-width: 100%;
   }
+}
+.uncom-box {
+  max-width: 100%;
+  width: 1240px;
+  height: 474px;
+  border-radius: 10px;
+  background: #2C343E;
+  padding: 88px 0 122px 85px;
+  position: relative;
+  margin-bottom: 168px;
+}
+.uncom-text {
+  display: flex;
+  width: 540px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.uncom-text h2 {
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+.uncom-text p {
+  color: #FEFCF7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.uncom img {
+  position: absolute;
+  right: 84px;
+  bottom: 92px;
+  border-radius: 8px;
+  background-color: #0E8784;
 }/*# sourceMappingURL=main.css.map */
