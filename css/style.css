@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-all-link {
+    max-width: 100%;
+    width: 145px;
+    height: 65px;
+    background: none;
+    border: 3px solid dodgerblue;
+    color: dodgerblue;
+    border-radius: 300px;
+    text-decoration: none;
+    font-size: 20px;
+}
