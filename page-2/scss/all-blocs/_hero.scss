@@ -1,0 +1,27 @@
+.hero {
+    &-box {
+        background-image: url("../assets/img/hero-img-ab-us.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 137px 0 85px 137px;
+    }
+
+    h1 {
+        color: #FEFCF7;
+        font-family: 'Fraunces 9pt';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        width: 445px;
+        color: #FEFCF7;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}

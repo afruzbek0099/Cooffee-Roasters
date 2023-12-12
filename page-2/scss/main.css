@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 43px 0;
+  max-width: 100%;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 0 33px;
+}
+.header-link {
+  color: #83888F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.header-link:active {
+  color: #333D4B;
+}
+.header-menu-btn {
+  display: none;
+}
+.header-menu {
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-list {
+    gap: 0 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header-logo {
+    width: 163px;
+    height: 18px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-menu-btn {
+    display: inline-block;
+  }
+}
+.hero-box {
+  background-image: url("../assets/img/hero-img-ab-us.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 137px 0 85px 137px;
+}
+.hero h1 {
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.hero p {
+  width: 445px;
+  color: #FEFCF7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}/*# sourceMappingURL=main.css.map */
